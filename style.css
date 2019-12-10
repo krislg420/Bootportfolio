@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    background-image: url("../images/herringbone.png");
+    color:black;
+    
+    
+    margin: 1.5px;
+}
+body{
+    background: rgb(174, 214, 164);
+    color: black;
+    }
+    #container {
+        max-width: 960px;
+        box-sizing: border-box;
+        overflow: auto;
+        margin: auto;
+        height: auyo;
+        background-color: #ffffff;
+        padding: 50px;
+        border: 1px solid #d1d0d0;
+        border-radius: 4px;
+        margin-bottom: 30px;
+        float: right;
+        font-size: 20px;
+        float: right;
+        font-size: 20px;
+        margin: 50px;
+        padding: 50px;
+ }
+
+ header {
+    display: block;
+    margin: -15px auto;
+    background:lightgray;
+    float: left;
+    width: 100%;
+    margin-bottom: 25px;
+    border-bottom: #666666;
+    border-bottom-style: solid;
+    border-bottom-width: thin;
+}
+h1 {
+    position: absolute;
+    top: 5px; 
+    margin: auto;
+    float: left;
+    text-align: left;
+    color: #ffffff;
+    background-color:#9dbda4;
+    padding: -15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+}
+footer{
+position: fixed;
+left: 0px;
+bottom: 0px;
+width: 100%;
+color: #ffffff;
+height: 50px;
+background-color: #666666;
+padding: 20px;
+border-top: 8px black;
+border-color: #4aaaa5;
+}    
+
+.navigation {
+    position: relative;
+    max-width: 960px;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin: auto;
+    height: 100%;
+    background-color: #ffffff;
+    border-bottom: 1px solid #d1d0d0;
+
+}
+.nav{
+    float: right;
+}
