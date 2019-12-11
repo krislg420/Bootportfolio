@@ -10,25 +10,9 @@ body{
     background: rgb(174, 214, 164);
     color: black;
     }
-    #container {
-        max-width: 960px;
-        box-sizing: border-box;
-        overflow: auto;
-        margin: auto;
-        height: auyo;
-        background-color: #ffffff;
-        padding: 50px;
-        border: 1px solid #d1d0d0;
-        border-radius: 4px;
-        margin-bottom: 30px;
-        float: right;
-        font-size: 20px;
-        float: right;
-        font-size: 20px;
-        margin: 50px;
-        padding: 50px;
- }
+  
 
+    
  header {
     display: block;
     margin: -15px auto;
@@ -65,17 +49,24 @@ border-top: 8px black;
 border-color: #4aaaa5;
 }    
 
-.navigation {
-    position: relative;
-    max-width: 960px;
-    box-sizing: border-box;
-    overflow: hidden;
-    margin: auto;
-    height: 100%;
-    background-color: #ffffff;
-    border-bottom: 1px solid #d1d0d0;
+@media screen and (max-width: 600px) and (max-width:768px)
+  {
+    /* The body's color when you minimize */
+    body {
+      background-color: green;
+    
+    }
+  
+    
+    .wrapper {
+      width: 100%;
+    }
+     #main-content,
+     #sidebar {
+       width: 100%;
+     }
+     #sidebar {
+       margin-top: 20px;
+     }
+  }
 
-}
-.nav{
-    float: right;
-}
